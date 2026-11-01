@@ -7,5 +7,5 @@ def split_str(a):
         print(b[0 + c])
         c = c + 1
     return c - 1
-text = input('Введите текс: ')
+text = input('Введите текст: ')
 print('Количество предложений:', split_str(text))
